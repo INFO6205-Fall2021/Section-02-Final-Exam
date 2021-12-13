@@ -24,7 +24,7 @@ public class SolutionTest {
         graph_to.add(5);
         graph_to.add(8);
 
-        Assert.assertEquals(s.connectedSum(10, graph_from, graph_to),32);
+        Assert.assertEquals(s.connectedSquareSum(10, graph_from, graph_to),32);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class SolutionTest {
         graph_to.add(5);
         graph_to.add(8);
         graph_to.add(9);
-        Assert.assertEquals(s.connectedSum(10, graph_from, graph_to),28);
+        Assert.assertEquals(s.connectedSquareSum(10, graph_from, graph_to),28);
     }
     @Test
     public void test3() {
@@ -52,7 +52,7 @@ public class SolutionTest {
         List<Integer> graph_from = new ArrayList<>();
         List<Integer> graph_to = new ArrayList<>();
 
-        Assert.assertEquals(s.connectedSum(1000, graph_from, graph_to),1000);
+        Assert.assertEquals(s.connectedSquareSum(1000, graph_from, graph_to),1000);
     }
 
     @Test
@@ -63,7 +63,7 @@ public class SolutionTest {
         Integer[] gt = {3,33,83,73,4,60,56,87,5,38,88,85,29,1,58,74,85,62,15,63,97,70,69,5,29,58,62,11,96,88};
         List<Integer> graph_from = Arrays.asList(gf);
         List<Integer> graph_to = Arrays.asList(gt);
-        Assert.assertEquals(s.connectedSum(100, graph_from, graph_to),148);
+        Assert.assertEquals(s.connectedSquareSum(100, graph_from, graph_to),148);
     }
 
 
@@ -74,6 +74,6 @@ public class SolutionTest {
         Integer[] gt = {145,12,306,335,312,226,231,30,340,159,93,494,272,168,456,203,132,199,134,19,436,269,158,292,311,396,300,272,179,331,283,11,375,477,182,6,146,238,176,374,141,314,416,297,198,451,100,452,253,142,374,304,363,167,357,9,9,207,37,105,295,119,214,127,253,493,243,56,44,67,64,109,91,96,68,498,44,261,46,438,404,458,299,247,241,93,61,346,383,174,122,216,397,70,270,373,280,457,143,351,92,360,205,21,382,56,478,25,471,486,197,16,327,11,202,264,450,306,214,477,355,192,143,229,283,315,318,212,158,390,150,316,387,368,212,109,72,448,123,323,14,393,398,413,210,168,358,260,172,427,278,388,338,47,433,91,153,35,104,404,498,50,116,423,475,194,168,376,237,407,289,55,152,348,30,184,225,432,221,17,127,477,325,184,46,134,162,76,125,407,254,225,450,340,273,50,102,333,409,126};
         List<Integer> graph_from = Arrays.asList(gf);
         List<Integer> graph_to = Arrays.asList(gt);
-        Assert.assertEquals(s.connectedSum(500, graph_from, graph_to),1048);
+        Assert.assertEquals(s.connectedSquareSum(500, graph_from, graph_to),1048);
     }
 }
