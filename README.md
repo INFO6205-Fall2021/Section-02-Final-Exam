@@ -20,8 +20,6 @@ There are 2 isolated sets with more than one node, {1, 2, 3, 4, 5} and {7, 8}. T
 
 You need to implement the connectedSquareSum function in Solution.java. The function should return an int values that denotes the calculation explained above. The tests have been implmented in SolutionTests.java. Make sure all the test cases run successfully.
 
-<b>Fork this repo into your account and implement the code. Once done submit the url of your repo in canvas. Make sure you make your Repository public<b>
-
  
 
 Constraints:
