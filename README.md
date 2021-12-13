@@ -26,5 +26,5 @@ You need to implement the connectedSum function in Solution.java. The function s
 
 Constraints:
 
-1 ≤ graph_nodes ≤ 1000
+1 ≤ graph_nodes ≤ 1000<br>
 0 ≤ graph_from[i], graph_to[i] ≤ n
