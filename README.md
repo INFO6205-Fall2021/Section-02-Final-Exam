@@ -12,9 +12,7 @@ graph_from = [1, 1, 2, 3, 7]
 
 graph_to = [2, 3, 4, 5, 8]
 
- 
-
-
+ ![alt text](https://github.com/INFO6205-Fall2021/Section-02-Final-Exam/blob/main/img.svg)
 
  
 
