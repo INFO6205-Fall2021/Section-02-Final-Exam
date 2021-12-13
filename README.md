@@ -1,6 +1,6 @@
 # Section-02-Final-Exam
 
-Given a number of nodes and a list of connected pairs, determine the weights of each isolated set of nodes assuming each node weighs 1 unit. Then for each weight calculated, square and return the final sum.
+Given a number of nodes and a list of connected pairs, determine the weights of each connected component assuming each node weighs 1 unit. Then for each weight calculated, square and return the final sum.
 
  
 
