@@ -18,9 +18,9 @@ graph_to = [2, 3, 4, 5, 8]
 
 There are 2 isolated sets with more than one node, {1, 2, 3, 4, 5} and {7, 8}. Their squares are 5*5=25 and 2*2=4.  The other three isolated nodes their square are 1,1 & 1 respectively.   The sum is 25 + 4 + (3 * 1) = 32.
 
-You need to implement the connectedSum function in Solution.java. The function should return an int that denotes the calculation explained above. The tests have been implmented in SolutionTests.java.
+You need to implement the connectedSquareSum function in Solution.java. The function should return an int values that denotes the calculation explained above. The tests have been implmented in SolutionTests.java. Make sure all the test cases run successfully.
 
-<b>Fork this repo into your account and implement the code. Make sure all the test cases run successfully. Once done submit the url of your repo in canvas. Make sure you make your Repository public<b>
+<b>Fork this repo into your account and implement the code. Once done submit the url of your repo in canvas. Make sure you make your Repository public<b>
 
  
 
